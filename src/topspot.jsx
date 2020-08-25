@@ -7,9 +7,6 @@ export default props => (
         <a className='btn btn-primary' name='submit' href={ `https://maps.google.com/?q=${props.location[0]},${props.location[1]}` } role="button" target="_blank">Open in Google Maps!</a>
     </div>
 );
-    // const handleClick = (event) => {
-    //     onClick(`https://www.google.com/maps?q=${props.location[0]},${props.location[1]}`);
-    // }
     
 
     
